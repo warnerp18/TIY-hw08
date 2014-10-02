@@ -23,7 +23,7 @@ function max(a, b){
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // ---------------------
 
-function maxOfThree(a, b, c){
+function maxOfThree(10, 5, 6){
     "use strict";
     if (a > b && c){ console.log (10); }
      else 
@@ -40,7 +40,7 @@ function isVowel(char){
     if (string === vowel) {
         console.log("True");
     } else {
-        console.log("false");
+        console.log("False");
     }
 }
 
@@ -57,9 +57,9 @@ function rovarspraket(){
 // Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
 // ---------------------
 
-function sum(){
+function sum(1,2,3,4){
     "use strict";
-    //...
+    var what = sum.length;
 }
 
 function multiply(){
