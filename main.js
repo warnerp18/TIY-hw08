@@ -5,7 +5,14 @@
  */
 
 /**
+ *Things I learned:
+ * 1. using ===: false === "false" is not true because "false" is a string
+ * 2. To check the type of an object it is much better to use Object.prototype.toString instead of using typeof. More reliable.
+ * 3. instanceof should be used only when dealing with "custom made objects that originate from the same JavaScript context"
+ * 4. things I didn't learn. what is "foo"?
+ * 5. what does "new" do?
  *
+ * 
  */
 
 // ---------------------
@@ -14,10 +21,11 @@
 
 function max(a, b){
     "use strict";
-    if (a > b){ console.log (10); }
+    var max1 = new max (10, 5)
+    if (a > b) then { return a }
      else 
-    { console.log(5);}
-}
+    { return b}
+} 
 
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
@@ -25,7 +33,7 @@ function max(a, b){
 
 function maxOfThree(10, 5, 6){
     "use strict";
-    if (a > b && c){ console.log (10); }
+    if (a > b && c) then { console.log (10); }
      else 
     {console.log(5, 6);}
     
@@ -37,7 +45,7 @@ function maxOfThree(10, 5, 6){
 
 function isVowel(char){
     "use strict";
-    if (string === vowel) {
+    if (string === isvowel) {
         console.log("True");
     } else {
         console.log("False");
@@ -59,7 +67,7 @@ function rovarspraket(){
 
 function sum(1,2,3,4){
     "use strict";
-    var what = sum.length;
+
 }
 
 function multiply(){
